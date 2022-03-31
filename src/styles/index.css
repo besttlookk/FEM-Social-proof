@@ -386,7 +386,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
   body {
-  overflow-y: hidden;
   background-image: url('../images/bg-pattern-bottom-mobile.svg'), url('../images/bg-pattern-top-mobile.svg');
   background-position: left bottom, right top;
   background-repeat: no-repeat;
@@ -623,11 +622,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .underline-offset-1 {
   text-underline-offset: 1px;
 }
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
-
 @media (min-width: 768px) {
 
   .md\:mt-0 {
