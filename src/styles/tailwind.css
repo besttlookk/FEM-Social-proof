@@ -20,7 +20,7 @@
   }
 
   body {
-    @apply overflow-y-hidden bg-mobile md:bg-desktop bg-corner bg-no-repeat;
+    @apply overflow-x-hidden bg-mobile md:bg-desktop bg-corner bg-no-repeat;
   }
 }
 
